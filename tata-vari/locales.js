@@ -1,29 +1,508 @@
-window.LOCALES={cs:{skip:'Přejít na menu',menu:'Menu',about:'O nás',gallery:'Galerie',contact:'Kontakt',visit:'Stavte se u táty ↗',eyebrow:'DOMÁCÍ KUCHYNĚ. VELKÉ SRDCE.',hero1:'TÁTA VAŘÍ.',hero2:'JAKO DOMA.',intro:'Poctivé jídlo, špetka lásky a místo, kde můžete být sami sebou. U táty chutná nejlíp.',seeMenu:'Podívat se na menu',directions:'Kde nás najdete',hoursPending:'Otevírací dobu brzy doplníme',artLabel:'DOBRÉ JÍDLO • DOBRÁ NÁLADA',handwritten:'S láskou. A pořádnými vousy.',scroll:'Ochutnejte náš příběh',marquee:'TÁTA VAŘÍ ✦ DOMA JE DOMA ✦ POCTIVÉ SUROVINY ✦ CHUŤ DĚTSTVÍ ✦ BEZ KECŮ ✦ ',specialLabel:'CO SE U TÁTY CHYSTÁ',specialTitle:'PRÁVĚ FRČÍ.',specialAside:'Každý den má svou chuť. Tady brzy najdete, co táta právě chystá.',coming:'NABÍDKU PŘIPRAVUJEME',daily:'DENNÍ MENU',dadTip:'TIP TÁTY',seasonal:'SEZÓNNÍ NABÍDKA',illustrations:'Ilustrační grafika — skutečné fotografie a nabídku doplníme.',menuLabel:'NĚCO DOBRÉHO NA ZUB',menuTitle:'CO SI DÁTE?',allergens:'Alergeny & složení',menuNote:'Ceny a alergeny doplníme společně s aktuálním menu.',aboutLabel:'POCTIVĚ. JEDNODUŠE. OD SRDCE.',aboutTitle:'PROČ TÁTA VAŘÍ?',aboutIntro:'Naše myšlenka je jednoduchá: jídlo má chutnat jako doma. Bez zbytečných řečí. S péčí v každém soustu.',r1:'POCTIVÉ SUROVINY',r1Text:'Dobré jídlo začíná tím, co do něj dáte. To je základ naší kuchyně.',r2:'DOMÁCÍ RECEPTY',r2Text:'Chuť, která připomíná společný stůl, pohodové obědy a domov.',r3:'VAŘÍME S LÁSKOU',r3Text:'Trochu péče, trochu humoru a pořádná porce pohody. To je Táta vaří.',contactLabel:'U JEDNOHO STOLU',contactTitle:'STAVTE SE U TÁTY.',contactIntro:'Přesnou adresu a kontakty právě připravujeme. Těšíme se na společné chvíle.',phone:'Telefon',hours:'Otevírací doba',mapPending:'TADY BUDE TÁTA.',mapNote:'Mapu a navigaci přidáme po potvrzení adresy. Toto není skutečné umístění.',writeUs:'Napište tátovi ↗',name:'Jméno',message:'Zpráva',formConsent:'Souhlasím s použitím uvedených údajů pro odpověď na mou zprávu.',send:'Připravit e-mail ↗',galleryLabel:'MALÉ CHVÍLE. VELKÁ CHUŤ.',galleryTitle:'ŽIVOT U TÁTY.',galleryIntro:'Jídlo, káva, úsměvy. Pro skutečné momenty od nás tady bude místo.',g1:'Z kuchyně',g2:'Náš táta',g3:'Chvíle na kávu',g4:'Od srdce',g5:'Na stole',g6:'Spolu je líp',galleryPlaceholder:'Místo pro 6 fotografií jídel, interiéru a týmu. Zatím ilustrační grafika.',closing:'DOMA JE TAM, KDE TÁTA VAŘÍ.',footerLine:'Domácí kuchyně. S láskou a bez keců.',navigation:'Prozkoumejte',information:'Dobré vědět',detailsPending:'Adresa, telefon a e-mail: doplníme.',privacy:'Ochrana osobních údajů',terms:'Obchodní podmínky',cookies:'Zásady cookies',cookieSettings:'Nastavení cookies',madeWith:'S LÁSKOU. JAKO DOMA.',cookieTitle:'Malá porce cookies?',cookieText:'Používáme místní úložiště pro jazyk a volbu soukromí. Analytiku ani reklamní sledování nyní nepoužíváme.',reject:'Odmítnout',settings:'Nastavit',accept:'Přijmout vše',emptyTitle:'MENU BRZY PŘIBUDE.',emptyText:'Táta ještě ladí poslední chutě. Kompletní nabídku, ceny a alergeny sem přidáme brzy.',emptyButton:'Zatím nás poznejte',pending:'Bude doplněno',days:['Pondělí','Úterý','Středa','Čtvrtek','Pátek','Sobota','Neděle'],categories:['Vše','Hlavní jídla','Polévky','Dezerty','Nápoje'],necessary:'Nezbytné',necessaryText:'Volba jazyka a nastavení soukromí. Vždy zapnuto.',analytics:'Analytické',marketing:'Marketingové',noTracking:'Nyní nejsou žádné služby této kategorie připojeny.',save:'Uložit nastavení',updated:'Aktualizováno: 10. 10. 2026',legalDraft:'Návrh pro připravovaný web. Provozovatel, IČO, sídlo a kontakt musí být doplněny před zahájením provozu.',privacyText:'Tento web nemá serverový příjem kontaktních zpráv. Formulář otevře váš e-mailový program až po doplnění kontaktního e-mailu. Údaje formuláře neukládáme. Jazyk a nastavení soukromí jsou uloženy pouze v tomto prohlížeči. Podrobnosti správce, doby uchování e-mailů a kontakt pro uplatnění práv budou doplněny.',termsText:'Na webu nyní nelze zadat objednávku, rezervaci ani platbu. Nabídka, ceny, provozovatel a podmínky poskytování služeb budou doplněny před spuštěním.',cookiesText:'Používáme localStorage pro jazyk (tv-language) a nastavení souhlasu (tv-consent). Volba souhlasu platí 12 měsíců. Web neobsahuje analytické ani marketingové skripty. Nastavení můžete kdykoli změnit v patičce.',allergenText:'Konkrétní alergeny budou uvedeny u každého jídla po doplnění menu. S dotazy na složení a možné křížové kontakty se obraťte na obsluhu.',allergenList:['Obiloviny obsahující lepek','Korýši','Vejce','Ryby','Arašídy','Sója','Mléko','Skořápkové plody','Celer','Hořčice','Sezam','Oxid siřičitý a siřičitany','Vlčí bob','Měkkýši'],formUnavailable:'Kontaktní e-mail zatím nebyl doplněn. Zpráva nebyla odeslána ani uložena.',formReady:'Otevřeli jsme váš e-mailový program. Zprávu odešlete v něm.',socialPending:'Instagram: odkaz doplníme',legalPending:'Provozovatel a IČO: bude doplněno',openToday:'Dnes otevřeno do',closed:'Nyní zavřeno',menuError:'Menu připravujeme. Aktuální nabídku doplníme brzy.'},en:{skip:'Skip to menu',menu:'Menu',about:'Our story',gallery:'Gallery',contact:'Contact',visit:'Come say hello ↗',eyebrow:'HOME COOKING. A BIG HEART.',hero1:'DAD COOKS.',hero2:'LIKE HOME.',intro:'Honest food, a pinch of love and a place to be yourself. Everything tastes better at dad’s.',seeMenu:'Explore the menu',directions:'Find us',hoursPending:'Opening hours coming soon',artLabel:'GOOD FOOD • GOOD MOOD',handwritten:'Made with love. And a proper moustache.',scroll:'A taste of our story',marquee:'TÁTA VAŘÍ ✦ HOME IS HOME ✦ HONEST INGREDIENTS ✦ A TASTE OF CHILDHOOD ✦ NO FUSS ✦ ',specialLabel:'WHAT’S COOKING AT DAD’S',specialTitle:'ON THE HORIZON.',specialAside:'Every day has its own flavour. Soon you’ll find out what dad is cooking.',coming:'OFFER COMING SOON',daily:'DAILY MENU',dadTip:'DAD’S PICK',seasonal:'SEASONAL SPECIALS',illustrations:'Illustrative artwork — actual photos and dishes will be added.',menuLabel:'SOMETHING TO TUCK INTO',menuTitle:'WHAT’S YOUR PICK?',allergens:'Allergens & ingredients',menuNote:'Prices and allergens will appear with the current menu.',aboutLabel:'HONEST. SIMPLE. FROM THE HEART.',aboutTitle:'WHY DAD COOKS.',aboutIntro:'Our idea is simple: food should taste like home. No fuss. Just care in every bite.',r1:'HONEST INGREDIENTS',r1Text:'Good food begins with what you put into it. That’s the foundation of our kitchen.',r2:'HOME RECIPES',r2Text:'Flavours that remind you of a shared table, relaxed lunches and home.',r3:'COOKED WITH LOVE',r3Text:'A little care, a little humour and a generous helping of comfort. That’s Táta vaří.',contactLabel:'AROUND THE SAME TABLE',contactTitle:'COME SAY HELLO.',contactIntro:'Our exact address and contact details are being prepared. We look forward to seeing you.',phone:'Phone',hours:'Opening hours',mapPending:'DAD WILL BE HERE.',mapNote:'Map and directions will appear once the address is confirmed. This is not an actual location.',writeUs:'Write to dad ↗',name:'Name',message:'Message',formConsent:'I agree to the use of these details to respond to my message.',send:'Prepare an email ↗',galleryLabel:'LITTLE MOMENTS. BIG FLAVOURS.',galleryTitle:'LIFE AT DAD’S.',galleryIntro:'Food, coffee and smiles. A space for real moments from our café.',g1:'In the kitchen',g2:'Meet dad',g3:'Coffee time',g4:'From the heart',g5:'On the table',g6:'Better together',galleryPlaceholder:'Space for 6 photos of food, the interior and the team. Illustrative artwork for now.',closing:'HOME IS WHERE DAD COOKS.',footerLine:'Home cooking. With love and no fuss.',navigation:'Explore',information:'Good to know',detailsPending:'Address, phone and email: coming soon.',privacy:'Privacy policy',terms:'Terms & conditions',cookies:'Cookie policy',cookieSettings:'Cookie settings',madeWith:'WITH LOVE. LIKE HOME.',cookieTitle:'A little helping of cookies?',cookieText:'We use local storage for your language and privacy choices. No analytics or advertising tracking is currently used.',reject:'Reject',settings:'Settings',accept:'Accept all',emptyTitle:'MENU COMING SOON.',emptyText:'Dad is putting the finishing touches on the flavours. Our full menu, prices and allergens will be here soon.',emptyButton:'Get to know us',pending:'To be added',days:['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],categories:['All','Main dishes','Soups','Desserts','Drinks'],necessary:'Necessary',necessaryText:'Language and privacy preferences. Always enabled.',analytics:'Analytics',marketing:'Marketing',noTracking:'No services in this category are currently connected.',save:'Save preferences',updated:'Updated: 10 October 2026',legalDraft:'Draft for the forthcoming website. The operator, company ID, registered address and contact details must be completed before opening.',privacyText:'This website does not receive contact messages on a server. Once the café’s email is added, the form opens your email application. Form details are not stored by this website. Language and privacy settings are stored only in your browser. Controller details, email retention periods and a contact for exercising your rights will be added.',termsText:'Orders, reservations and payments cannot currently be made on this website. The menu, prices, operator information and terms of service will be completed before opening.',cookiesText:'We use localStorage for language (tv-language) and consent preferences (tv-consent). Consent preferences last 12 months. This website contains no analytics or marketing scripts. You can change your preferences at any time in the footer.',allergenText:'Specific allergens will be listed for every dish once the menu is added. Please ask the team about ingredients and possible cross-contact.',allergenList:['Cereals containing gluten','Crustaceans','Eggs','Fish','Peanuts','Soybeans','Milk','Nuts','Celery','Mustard','Sesame','Sulphur dioxide and sulphites','Lupin','Molluscs'],formUnavailable:'The café’s contact email has not been added yet. Your message has not been sent or saved.',formReady:'Your email application has been opened. Send your message from there.',socialPending:'Instagram: link coming soon',legalPending:'Operator and company ID: to be added',openToday:'Open today until',closed:'Currently closed',menuError:'The menu is being prepared. The current selection will appear soon.'}};
-
-window.LOCALES.pl={
-skip:'Przejdź do menu',menu:'Menu',about:'O nas',gallery:'Galeria',contact:'Kontakt',visit:'Wpadnij do taty ↗',
-eyebrow:'DOMOWA KUCHNIA. WIELKIE SERCE.',hero1:'TATA GOTUJE.',hero2:'JAK W DOMU.',intro:'Uczciwe jedzenie, szczypta miłości i miejsce, w którym możesz być sobą. U taty smakuje najlepiej.',seeMenu:'Zobacz menu',directions:'Jak nas znaleźć',hoursPending:'Godziny otwarcia podamy wkrótce',artLabel:'DOBRE JEDZENIE • DOBRY NASTRÓJ',handwritten:'Z miłością. I porządnymi wąsami.',scroll:'Poznaj naszą historię',marquee:'TÁTA VAŘÍ ✦ DOM TO DOM ✦ DOBRE SKŁADNIKI ✦ SMAK DZIECIŃSTWA ✦ BEZ ZBĘDNYCH SŁÓW ✦ ',
-specialLabel:'CO SIĘ SZYKUJE U TATY',specialTitle:'COŚ SIĘ GOTUJE.',specialAside:'Każdy dzień ma swój smak. Tutaj wkrótce dowiesz się, co tata przygotowuje.',coming:'OFERTA W PRZYGOTOWANIU',daily:'MENU DNIA',dadTip:'POLECA TATA',seasonal:'OFERTA SEZONOWA',illustrations:'Grafika poglądowa — dodamy prawdziwe zdjęcia i aktualną ofertę.',
-menuLabel:'COŚ PYSZNEGO NA ZĄB',menuTitle:'NA CO MASZ OCHOTĘ?',allergens:'Alergeny i składniki',menuNote:'Ceny i alergeny pojawią się wraz z aktualnym menu.',
-aboutLabel:'UCZCIWIE. PROSTO. OD SERCA.',aboutTitle:'DLACZEGO TATA GOTUJE?',aboutIntro:'Nasz pomysł jest prosty: jedzenie ma smakować jak w domu. Bez zbędnych słów. Z troską w każdym kęsie.',r1:'DOBRE SKŁADNIKI',r1Text:'Dobre jedzenie zaczyna się od tego, co do niego dodajesz. To podstawa naszej kuchni.',r2:'DOMOWE PRZEPISY',r2Text:'Smaki, które przywołują wspólny stół, spokojne obiady i dom.',r3:'GOTUJEMY Z MIŁOŚCIĄ',r3Text:'Trochę troski, trochę humoru i porządna porcja dobrego nastroju. To właśnie Táta vaří.',
-contactLabel:'PRZY WSPÓLNYM STOLE',contactTitle:'WPADNIJ DO TATY.',contactIntro:'Dokładny adres i dane kontaktowe są w przygotowaniu. Czekamy na wspólne chwile.',phone:'Telefon',hours:'Godziny otwarcia',mapPending:'TUTAJ BĘDZIE TATA.',mapNote:'Mapę i wskazówki dojazdu dodamy po potwierdzeniu adresu. To nie jest rzeczywista lokalizacja.',writeUs:'Napisz do taty ↗',name:'Imię',message:'Wiadomość',formConsent:'Zgadzam się na wykorzystanie podanych danych w celu udzielenia odpowiedzi na moją wiadomość.',send:'Przygotuj e-mail ↗',
-galleryLabel:'MAŁE CHWILE. WIELKI SMAK.',galleryTitle:'ŻYCIE U TATY.',galleryIntro:'Jedzenie, kawa i uśmiechy. Miejsce na prawdziwe chwile z naszej kawiarni.',g1:'Z kuchni',g2:'Nasz tata',g3:'Czas na kawę',g4:'Od serca',g5:'Na stole',g6:'Razem lepiej',galleryPlaceholder:'Miejsce na 6 zdjęć jedzenia, wnętrza i zespołu. Na razie grafika poglądowa.',
-closing:'DOM JEST TAM, GDZIE TATA GOTUJE.',footerLine:'Domowa kuchnia. Z miłością, bez zbędnych słów.',navigation:'Odkrywaj',information:'Warto wiedzieć',detailsPending:'Adres, telefon i e-mail: wkrótce.',privacy:'Polityka prywatności',terms:'Regulamin',cookies:'Polityka plików cookies',cookieSettings:'Ustawienia cookies',madeWith:'Z MIŁOŚCIĄ. JAK W DOMU.',
-cookieTitle:'Mała porcja ciasteczek?',cookieText:'Pamięć lokalna zapisuje język, motyw i ustawienia prywatności. Obecnie nie korzystamy z analityki ani śledzenia reklamowego.',reject:'Odrzuć',settings:'Ustawienia',accept:'Zaakceptuj wszystkie',
-emptyTitle:'MENU JUŻ WKRÓTCE.',emptyText:'Tata dopracowuje ostatnie smaki. Pełną ofertę, ceny i alergeny dodamy wkrótce.',emptyButton:'Poznaj nas',pending:'Do uzupełnienia',days:['Poniedziałek','Wtorek','Środa','Czwartek','Piątek','Sobota','Niedziela'],categories:['Wszystko','Dania główne','Zupy','Desery','Napoje'],
-necessary:'Niezbędne',necessaryText:'Język, motyw i ustawienia prywatności. Zawsze włączone.',analytics:'Analityczne',marketing:'Marketingowe',noTracking:'Obecnie nie są podłączone żadne usługi tej kategorii.',save:'Zapisz ustawienia',updated:'Aktualizacja: 10 października 2026',
-legalDraft:'Projekt dla przygotowywanej strony. Dane operatora, numer identyfikacyjny firmy, adres siedziby i kontakt należy uzupełnić przed rozpoczęciem działalności.',privacyText:'Ta strona nie przyjmuje wiadomości kontaktowych na serwerze. Po dodaniu adresu e-mail kawiarni formularz otworzy Twój program pocztowy. Strona nie zapisuje danych formularza. Język, motyw i ustawienia prywatności są zapisane wyłącznie w Twojej przeglądarce. Dane administratora, okres przechowywania wiadomości i kontakt w sprawie realizacji praw zostaną uzupełnione.',termsText:'Obecnie nie można składać zamówień, dokonywać rezerwacji ani płatności na stronie. Menu, ceny, dane operatora i warunki świadczenia usług zostaną uzupełnione przed otwarciem.',cookiesText:'Używamy localStorage do zapisu języka (tv-language), motywu (tv-theme) i zgody (tv-consent). Ustawienia zgody są ważne przez 12 miesięcy. Strona nie zawiera skryptów analitycznych ani marketingowych. Ustawienia możesz zmienić w stopce.',allergenText:'Alergeny dla każdego dania zostaną podane po dodaniu menu. O składniki i możliwość kontaktu krzyżowego zapytaj obsługę.',allergenList:['Zboża zawierające gluten','Skorupiaki','Jaja','Ryby','Orzeszki ziemne','Soja','Mleko','Orzechy','Seler','Gorczyca','Sezam','Dwutlenek siarki i siarczyny','Łubin','Mięczaki'],
-formUnavailable:'Adres e-mail kawiarni nie został jeszcze dodany. Wiadomość nie została wysłana ani zapisana.',formReady:'Otworzyliśmy Twój program pocztowy. Wyślij wiadomość w nim.',socialPending:'Instagram: link dodamy wkrótce',legalPending:'Operator i numer identyfikacyjny firmy: do uzupełnienia',openToday:'Dziś otwarte do',closed:'Teraz zamknięte',menuError:'Menu jest w przygotowaniu. Aktualną ofertę dodamy wkrótce.',
-themeLight:'Włącz jasny motyw',themeDark:'Włącz ciemny motyw',themeName:'Motyw strony',close:'Zamknij',previous:'Poprzednie dania',next:'Następne dania',backToTop:'Powrót na górę',logoAlt:'Táta vaří — uśmiechnięty kucharz',stamp:'Z MIŁOŚCIĄ',galleryMenu:'Otwórz galerię',pageTitle:'Táta vaří — Jak w domu | Tata Vary',pageDescription:'Táta vaří (Tata Vary) — domowa kuchnia, dobre składniki i smak domu. Menu i kontakt już wkrótce.'
+window.LOCALES = {
+  cs: {
+    skip: "Přejít na menu",
+    menu: "Menu",
+    about: "O nás",
+    gallery: "Galerie",
+    contact: "Kontakt",
+    visit: "Stavte se u táty",
+    eyebrow: "DOMÁCÍ KUCHYNĚ. VELKÉ SRDCE.",
+    hero1: "TÁTA VAŘÍ.",
+    hero2: "JAKO DOMA.",
+    intro:
+      "Poctivé jídlo, špetka lásky a místo, kde můžete být sami sebou. U táty chutná nejlíp.",
+    seeMenu: "Podívat se na menu",
+    directions: "Kde nás najdete",
+    hoursPending: "Otevírací dobu brzy doplníme",
+    artLabel: "DOBRÉ JÍDLO • DOBRÁ NÁLADA",
+    handwritten: "S láskou. A pořádnými vousy.",
+    scroll: "Ochutnejte náš příběh",
+    marquee:
+      "TÁTA VAŘÍ ✦ DOMA JE DOMA ✦ POCTIVÉ SUROVINY ✦ CHUŤ DĚTSTVÍ ✦ BEZ KECŮ ✦ ",
+    specialLabel: "CO SE U TÁTY CHYSTÁ",
+    specialTitle: "PRÁVĚ FRČÍ.",
+    specialAside:
+      "Každý den má svou chuť. Tady brzy najdete, co táta právě chystá.",
+    coming: "NABÍDKU PŘIPRAVUJEME",
+    daily: "DENNÍ MENU",
+    dadTip: "TIP TÁTY",
+    seasonal: "SEZÓNNÍ NABÍDKA",
+    illustrations:
+      "Ilustrační grafika — skutečné fotografie a nabídku doplníme.",
+    menuLabel: "NĚCO DOBRÉHO NA ZUB",
+    menuTitle: "CO SI DÁTE?",
+    allergens: "Alergeny & složení",
+    menuNote: "Ceny a alergeny doplníme společně s aktuálním menu.",
+    aboutLabel: "POCTIVĚ. JEDNODUŠE. OD SRDCE.",
+    aboutTitle: "PROČ TÁTA VAŘÍ?",
+    aboutIntro:
+      "Naše myšlenka je jednoduchá: jídlo má chutnat jako doma. Bez zbytečných řečí. S péčí v každém soustu.",
+    r1: "POCTIVÉ SUROVINY",
+    r1Text:
+      "Dobré jídlo začíná tím, co do něj dáte. To je základ naší kuchyně.",
+    r2: "DOMÁCÍ RECEPTY",
+    r2Text: "Chuť, která připomíná společný stůl, pohodové obědy a domov.",
+    r3: "VAŘÍME S LÁSKOU",
+    r3Text:
+      "Trochu péče, trochu humoru a pořádná porce pohody. To je Táta vaří.",
+    contactLabel: "U JEDNOHO STOLU",
+    contactTitle: "STAVTE SE U TÁTY.",
+    contactIntro:
+      "Přesnou adresu a kontakty právě připravujeme. Těšíme se na společné chvíle.",
+    phone: "Telefon",
+    hours: "Otevírací doba",
+    mapPending: "TADY BUDE TÁTA.",
+    mapNote:
+      "Mapu a navigaci přidáme po potvrzení adresy. Toto není skutečné umístění.",
+    writeUs: "Napište nám",
+    name: "Jméno",
+    message: "Zpráva",
+    formConsent:
+      "Souhlasím s použitím uvedených údajů pro odpověď na mou zprávu.",
+    send: "Připravit e-mail",
+    galleryLabel: "MALÉ CHVÍLE. VELKÁ CHUŤ.",
+    galleryTitle: "ŽIVOT U TÁTY.",
+    galleryIntro:
+      "Jídlo, káva, úsměvy. Pro skutečné momenty od nás tady bude místo.",
+    g1: "Z kuchyně",
+    g2: "Náš táta",
+    g3: "Chvíle na kávu",
+    g4: "Od srdce",
+    g5: "Na stole",
+    g6: "Spolu je líp",
+    galleryPlaceholder:
+      "Místo pro 6 fotografií jídel, interiéru a týmu. Zatím ilustrační grafika.",
+    closing: "DOMA JE TAM, KDE TÁTA VAŘÍ.",
+    footerLine: "Domácí kuchyně. S láskou a bez keců.",
+    navigation: "Prozkoumejte",
+    information: "Dobré vědět",
+    detailsPending: "Adresa, telefon a e-mail: doplníme.",
+    privacy: "Ochrana osobních údajů",
+    terms: "Obchodní podmínky",
+    cookies: "Zásady cookies",
+    cookieSettings: "Nastavení cookies",
+    madeWith: "S LÁSKOU. JAKO DOMA.",
+    cookieTitle: "Malá porce cookies?",
+    cookieText:
+      "Používáme místní úložiště pro jazyk a volbu soukromí. Analytiku ani reklamní sledování nyní nepoužíváme.",
+    reject: "Odmítnout",
+    settings: "Nastavit",
+    accept: "Přijmout vše",
+    emptyTitle: "MENU BRZY PŘIBUDE.",
+    emptyText:
+      "Táta ještě ladí poslední chutě. Kompletní nabídku, ceny a alergeny sem přidáme brzy.",
+    emptyButton: "Zatím nás poznejte",
+    pending: "Bude doplněno",
+    days: [
+      "Pondělí",
+      "Úterý",
+      "Středa",
+      "Čtvrtek",
+      "Pátek",
+      "Sobota",
+      "Neděle",
+    ],
+    categories: ["Vše", "Hlavní jídla", "Polévky", "Dezerty", "Nápoje"],
+    necessary: "Nezbytné",
+    necessaryText: "Volba jazyka a nastavení soukromí. Vždy zapnuto.",
+    analytics: "Analytické",
+    marketing: "Marketingové",
+    noTracking: "Nyní nejsou žádné služby této kategorie připojeny.",
+    save: "Uložit nastavení",
+    updated: "Aktualizováno: 10. 10. 2026",
+    legalDraft:
+      "Návrh pro připravovaný web. Provozovatel, IČO, sídlo a kontakt musí být doplněny před zahájením provozu.",
+    privacyText:
+      "Tento web nemá serverový příjem kontaktních zpráv. Formulář otevře váš e-mailový program až po doplnění kontaktního e-mailu. Údaje formuláře neukládáme. Jazyk a nastavení soukromí jsou uloženy pouze v tomto prohlížeči. Podrobnosti správce, doby uchování e-mailů a kontakt pro uplatnění práv budou doplněny.",
+    termsText:
+      "Na webu nyní nelze zadat objednávku, rezervaci ani platbu. Nabídka, ceny, provozovatel a podmínky poskytování služeb budou doplněny před spuštěním.",
+    cookiesText:
+      "Používáme localStorage pro jazyk (tv-language) a nastavení souhlasu (tv-consent). Volba souhlasu platí 12 měsíců. Web neobsahuje analytické ani marketingové skripty. Nastavení můžete kdykoli změnit v patičce.",
+    allergenText:
+      "Konkrétní alergeny budou uvedeny u každého jídla po doplnění menu. S dotazy na složení a možné křížové kontakty se obraťte na obsluhu.",
+    allergenList: [
+      "Obiloviny obsahující lepek",
+      "Korýši",
+      "Vejce",
+      "Ryby",
+      "Arašídy",
+      "Sója",
+      "Mléko",
+      "Skořápkové plody",
+      "Celer",
+      "Hořčice",
+      "Sezam",
+      "Oxid siřičitý a siřičitany",
+      "Vlčí bob",
+      "Měkkýši",
+    ],
+    formUnavailable:
+      "Kontaktní e-mail zatím nebyl doplněn. Zpráva nebyla odeslána ani uložena.",
+    formReady: "Otevřeli jsme váš e-mailový program. Zprávu odešlete v něm.",
+    socialPending: "Instagram: odkaz doplníme",
+    legalPending: "Provozovatel a IČO: bude doplněno",
+    openToday: "Dnes otevřeno do",
+    closed: "Nyní zavřeno",
+    menuError: "Menu připravujeme. Aktuální nabídku doplníme brzy.",
+  },
+  en: {
+    skip: "Skip to menu",
+    menu: "Menu",
+    about: "Our story",
+    gallery: "Gallery",
+    contact: "Contact",
+    visit: "Come say hello",
+    eyebrow: "HOME COOKING. A BIG HEART.",
+    hero1: "TÁTA VAŘÍ.",
+    hero2: "LIKE HOME.",
+    intro:
+      "Honest food, a pinch of love and a place to be yourself. Everything tastes better at dad’s.",
+    seeMenu: "Explore the menu",
+    directions: "Find us",
+    hoursPending: "Opening hours coming soon",
+    artLabel: "GOOD FOOD • GOOD MOOD",
+    handwritten: "Made with love. And a proper moustache.",
+    scroll: "A taste of our story",
+    marquee:
+      "TÁTA VAŘÍ ✦ HOME IS HOME ✦ HONEST INGREDIENTS ✦ A TASTE OF CHILDHOOD ✦ NO FUSS ✦ ",
+    specialLabel: "WHAT’S COOKING AT DAD’S",
+    specialTitle: "ON THE HORIZON.",
+    specialAside:
+      "Every day has its own flavour. Soon you’ll find out what dad is cooking.",
+    coming: "OFFER COMING SOON",
+    daily: "DAILY MENU",
+    dadTip: "DAD’S PICK",
+    seasonal: "SEASONAL SPECIALS",
+    illustrations:
+      "Illustrative artwork — actual photos and dishes will be added.",
+    menuLabel: "SOMETHING TO TUCK INTO",
+    menuTitle: "WHAT’S YOUR PICK?",
+    allergens: "Allergens & ingredients",
+    menuNote: "Prices and allergens will appear with the current menu.",
+    aboutLabel: "HONEST. SIMPLE. FROM THE HEART.",
+    aboutTitle: "WHY DAD COOKS.",
+    aboutIntro:
+      "Our idea is simple: food should taste like home. No fuss. Just care in every bite.",
+    r1: "HONEST INGREDIENTS",
+    r1Text:
+      "Good food begins with what you put into it. That’s the foundation of our kitchen.",
+    r2: "HOME RECIPES",
+    r2Text:
+      "Flavours that remind you of a shared table, relaxed lunches and home.",
+    r3: "COOKED WITH LOVE",
+    r3Text:
+      "A little care, a little humour and a generous helping of comfort. That’s Táta vaří.",
+    contactLabel: "AROUND THE SAME TABLE",
+    contactTitle: "COME SAY HELLO.",
+    contactIntro:
+      "Our exact address and contact details are being prepared. We look forward to seeing you.",
+    phone: "Phone",
+    hours: "Opening hours",
+    mapPending: "DAD WILL BE HERE.",
+    mapNote:
+      "Map and directions will appear once the address is confirmed. This is not an actual location.",
+    writeUs: "Write to us",
+    name: "Name",
+    message: "Message",
+    formConsent:
+      "I agree to the use of these details to respond to my message.",
+    send: "Prepare an email",
+    galleryLabel: "LITTLE MOMENTS. BIG FLAVOURS.",
+    galleryTitle: "LIFE AT DAD’S.",
+    galleryIntro:
+      "Food, coffee and smiles. A space for real moments from our café.",
+    g1: "In the kitchen",
+    g2: "Meet dad",
+    g3: "Coffee time",
+    g4: "From the heart",
+    g5: "On the table",
+    g6: "Better together",
+    galleryPlaceholder:
+      "Space for 6 photos of food, the interior and the team. Illustrative artwork for now.",
+    closing: "HOME IS WHERE DAD COOKS.",
+    footerLine: "Home cooking. With love and no fuss.",
+    navigation: "Explore",
+    information: "Good to know",
+    detailsPending: "Address, phone and email: coming soon.",
+    privacy: "Privacy policy",
+    terms: "Terms & conditions",
+    cookies: "Cookie policy",
+    cookieSettings: "Cookie settings",
+    madeWith: "WITH LOVE. LIKE HOME.",
+    cookieTitle: "A little helping of cookies?",
+    cookieText:
+      "We use local storage for your language and privacy choices. No analytics or advertising tracking is currently used.",
+    reject: "Reject",
+    settings: "Settings",
+    accept: "Accept all",
+    emptyTitle: "MENU COMING SOON.",
+    emptyText:
+      "Dad is putting the finishing touches on the flavours. Our full menu, prices and allergens will be here soon.",
+    emptyButton: "Get to know us",
+    pending: "To be added",
+    days: [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday",
+    ],
+    categories: ["All", "Main dishes", "Soups", "Desserts", "Drinks"],
+    necessary: "Necessary",
+    necessaryText: "Language and privacy preferences. Always enabled.",
+    analytics: "Analytics",
+    marketing: "Marketing",
+    noTracking: "No services in this category are currently connected.",
+    save: "Save preferences",
+    updated: "Updated: 10 October 2026",
+    legalDraft:
+      "Draft for the forthcoming website. The operator, company ID, registered address and contact details must be completed before opening.",
+    privacyText:
+      "This website does not receive contact messages on a server. Once the café’s email is added, the form opens your email application. Form details are not stored by this website. Language and privacy settings are stored only in your browser. Controller details, email retention periods and a contact for exercising your rights will be added.",
+    termsText:
+      "Orders, reservations and payments cannot currently be made on this website. The menu, prices, operator information and terms of service will be completed before opening.",
+    cookiesText:
+      "We use localStorage for language (tv-language) and consent preferences (tv-consent). Consent preferences last 12 months. This website contains no analytics or marketing scripts. You can change your preferences at any time in the footer.",
+    allergenText:
+      "Specific allergens will be listed for every dish once the menu is added. Please ask the team about ingredients and possible cross-contact.",
+    allergenList: [
+      "Cereals containing gluten",
+      "Crustaceans",
+      "Eggs",
+      "Fish",
+      "Peanuts",
+      "Soybeans",
+      "Milk",
+      "Nuts",
+      "Celery",
+      "Mustard",
+      "Sesame",
+      "Sulphur dioxide and sulphites",
+      "Lupin",
+      "Molluscs",
+    ],
+    formUnavailable:
+      "The café’s contact email has not been added yet. Your message has not been sent or saved.",
+    formReady:
+      "Your email application has been opened. Send your message from there.",
+    socialPending: "Instagram: link coming soon",
+    legalPending: "Operator and company ID: to be added",
+    openToday: "Open today until",
+    closed: "Currently closed",
+    menuError:
+      "The menu is being prepared. The current selection will appear soon.",
+  },
 };
 
-Object.assign(window.LOCALES.cs,{themeLight:'Přepnout na světlý vzhled',themeDark:'Přepnout na tmavý vzhled',themeName:'Vzhled stránky',close:'Zavřít',previous:'Předchozí jídla',next:'Další jídla',backToTop:'Zpět nahoru',logoAlt:'Táta vaří — usměvavý kuchař',stamp:'S LÁSKOU',galleryMenu:'Otevřít galerii',pageTitle:'Táta vaří — Jako doma | Tata Vary',pageDescription:'Táta vaří (Tata Vary) — domácí kuchyně, poctivé suroviny a chuť domova. Menu a kontakty připravujeme.'});
-Object.assign(window.LOCALES.en,{themeLight:'Switch to light theme',themeDark:'Switch to dark theme',themeName:'Website theme',close:'Close',previous:'Previous dishes',next:'Next dishes',backToTop:'Back to top',logoAlt:'Táta vaří — smiling chef',stamp:'WITH LOVE',galleryMenu:'Open gallery',pageTitle:'Táta vaří — Like home | Tata Vary',pageDescription:'Táta vaří (Tata Vary) — home cooking, honest ingredients and a taste of home. Menu and contact details coming soon.'});
-window.LOCALES.cs.cookieText='Používáme místní úložiště pro jazyk, vzhled a volbu soukromí. Analytiku ani reklamní sledování nyní nepoužíváme.';
-window.LOCALES.en.cookieText='We use local storage for your language, theme and privacy choices. No analytics or advertising tracking is currently used.';
-window.LOCALES.cs.necessaryText='Volba jazyka, vzhledu a nastavení soukromí. Vždy zapnuto.';
-window.LOCALES.en.necessaryText='Language, theme and privacy preferences. Always enabled.';
-window.LOCALES.cs.cookiesText='Používáme localStorage pro jazyk (tv-language), vzhled (tv-theme) a nastavení souhlasu (tv-consent). Volba souhlasu platí 12 měsíců. Web neobsahuje analytické ani marketingové skripty. Nastavení můžete kdykoli změnit v patičce.';
-window.LOCALES.en.cookiesText='We use localStorage for language (tv-language), theme (tv-theme) and consent preferences (tv-consent). Consent preferences last 12 months. This website contains no analytics or marketing scripts. You can change your preferences at any time in the footer.';
-window.LOCALES.cs.privacyText=window.LOCALES.cs.privacyText.replace('Jazyk a nastavení soukromí','Jazyk, vzhled a nastavení soukromí');
-window.LOCALES.en.privacyText=window.LOCALES.en.privacyText.replace('Language and privacy settings','Language, theme and privacy settings');
+window.LOCALES.pl = {
+  skip: "Przejdź do menu",
+  menu: "Menu",
+  about: "O nas",
+  gallery: "Galeria",
+  contact: "Kontakt",
+  visit: "Wpadnij do taty",
+  eyebrow: "DOMOWA KUCHNIA. WIELKIE SERCE.",
+  hero1: "TÁTA VAŘÍ.",
+  hero2: "JAK W DOMU.",
+  intro:
+    "Uczciwe jedzenie, szczypta miłości i miejsce, w którym możesz być sobą. U taty smakuje najlepiej.",
+  seeMenu: "Zobacz menu",
+  directions: "Jak nas znaleźć",
+  hoursPending: "Godziny otwarcia podamy wkrótce",
+  artLabel: "DOBRE JEDZENIE • DOBRY NASTRÓJ",
+  handwritten: "Z miłością. I porządnymi wąsami.",
+  scroll: "Poznaj naszą historię",
+  marquee:
+    "TÁTA VAŘÍ ✦ DOM TO DOM ✦ DOBRE SKŁADNIKI ✦ SMAK DZIECIŃSTWA ✦ BEZ ZBĘDNYCH SŁÓW ✦ ",
+  specialLabel: "CO SIĘ SZYKUJE U TATY",
+  specialTitle: "COŚ SIĘ GOTUJE.",
+  specialAside:
+    "Każdy dzień ma swój smak. Tutaj wkrótce dowiesz się, co tata przygotowuje.",
+  coming: "OFERTA W PRZYGOTOWANIU",
+  daily: "MENU DNIA",
+  dadTip: "POLECA TATA",
+  seasonal: "OFERTA SEZONOWA",
+  illustrations:
+    "Grafika poglądowa — dodamy prawdziwe zdjęcia i aktualną ofertę.",
+  menuLabel: "COŚ PYSZNEGO NA ZĄB",
+  menuTitle: "NA CO MASZ OCHOTĘ?",
+  allergens: "Alergeny i składniki",
+  menuNote: "Ceny i alergeny pojawią się wraz z aktualnym menu.",
+  aboutLabel: "UCZCIWIE. PROSTO. OD SERCA.",
+  aboutTitle: "DLACZEGO TATA GOTUJE?",
+  aboutIntro:
+    "Nasz pomysł jest prosty: jedzenie ma smakować jak w domu. Bez zbędnych słów. Z troską w każdym kęsie.",
+  r1: "DOBRE SKŁADNIKI",
+  r1Text:
+    "Dobre jedzenie zaczyna się od tego, co do niego dodajesz. To podstawa naszej kuchni.",
+  r2: "DOMOWE PRZEPISY",
+  r2Text: "Smaki, które przywołują wspólny stół, spokojne obiady i dom.",
+  r3: "GOTUJEMY Z MIŁOŚCIĄ",
+  r3Text:
+    "Trochę troski, trochę humoru i porządna porcja dobrego nastroju. To właśnie Táta vaří.",
+  contactLabel: "PRZY WSPÓLNYM STOLE",
+  contactTitle: "WPADNIJ DO TATY.",
+  contactIntro:
+    "Dokładny adres i dane kontaktowe są w przygotowaniu. Czekamy na wspólne chwile.",
+  phone: "Telefon",
+  hours: "Godziny otwarcia",
+  mapPending: "TUTAJ BĘDZIE TATA.",
+  mapNote:
+    "Mapę i wskazówki dojazdu dodamy po potwierdzeniu adresu. To nie jest rzeczywista lokalizacja.",
+  writeUs: "Napisz do nas",
+  name: "Imię",
+  message: "Wiadomość",
+  formConsent:
+    "Zgadzam się na wykorzystanie podanych danych w celu udzielenia odpowiedzi na moją wiadomość.",
+  send: "Przygotuj e-mail",
+  galleryLabel: "MAŁE CHWILE. WIELKI SMAK.",
+  galleryTitle: "ŻYCIE U TATY.",
+  galleryIntro:
+    "Jedzenie, kawa i uśmiechy. Miejsce na prawdziwe chwile z naszej kawiarni.",
+  g1: "Z kuchni",
+  g2: "Nasz tata",
+  g3: "Czas na kawę",
+  g4: "Od serca",
+  g5: "Na stole",
+  g6: "Razem lepiej",
+  galleryPlaceholder:
+    "Miejsce na 6 zdjęć jedzenia, wnętrza i zespołu. Na razie grafika poglądowa.",
+  closing: "DOM JEST TAM, GDZIE TATA GOTUJE.",
+  footerLine: "Domowa kuchnia. Z miłością, bez zbędnych słów.",
+  navigation: "Odkrywaj",
+  information: "Warto wiedzieć",
+  detailsPending: "Adres, telefon i e-mail: wkrótce.",
+  privacy: "Polityka prywatności",
+  terms: "Regulamin",
+  cookies: "Polityka plików cookies",
+  cookieSettings: "Ustawienia cookies",
+  madeWith: "Z MIŁOŚCIĄ. JAK W DOMU.",
+  cookieTitle: "Mała porcja ciasteczek?",
+  cookieText:
+    "Pamięć lokalna zapisuje język, motyw i ustawienia prywatności. Obecnie nie korzystamy z analityki ani śledzenia reklamowego.",
+  reject: "Odrzuć",
+  settings: "Ustawienia",
+  accept: "Zaakceptuj wszystkie",
+  emptyTitle: "MENU JUŻ WKRÓTCE.",
+  emptyText:
+    "Tata dopracowuje ostatnie smaki. Pełną ofertę, ceny i alergeny dodamy wkrótce.",
+  emptyButton: "Poznaj nas",
+  pending: "Do uzupełnienia",
+  days: [
+    "Poniedziałek",
+    "Wtorek",
+    "Środa",
+    "Czwartek",
+    "Piątek",
+    "Sobota",
+    "Niedziela",
+  ],
+  categories: ["Wszystko", "Dania główne", "Zupy", "Desery", "Napoje"],
+  necessary: "Niezbędne",
+  necessaryText: "Język, motyw i ustawienia prywatności. Zawsze włączone.",
+  analytics: "Analityczne",
+  marketing: "Marketingowe",
+  noTracking: "Obecnie nie są podłączone żadne usługi tej kategorii.",
+  save: "Zapisz ustawienia",
+  updated: "Aktualizacja: 10 października 2026",
+  legalDraft:
+    "Projekt dla przygotowywanej strony. Dane operatora, numer identyfikacyjny firmy, adres siedziby i kontakt należy uzupełnić przed rozpoczęciem działalności.",
+  privacyText:
+    "Ta strona nie przyjmuje wiadomości kontaktowych na serwerze. Po dodaniu adresu e-mail kawiarni formularz otworzy Twój program pocztowy. Strona nie zapisuje danych formularza. Język, motyw i ustawienia prywatności są zapisane wyłącznie w Twojej przeglądarce. Dane administratora, okres przechowywania wiadomości i kontakt w sprawie realizacji praw zostaną uzupełnione.",
+  termsText:
+    "Obecnie nie można składać zamówień, dokonywać rezerwacji ani płatności na stronie. Menu, ceny, dane operatora i warunki świadczenia usług zostaną uzupełnione przed otwarciem.",
+  cookiesText:
+    "Używamy localStorage do zapisu języka (tv-language), motywu (tv-theme) i zgody (tv-consent). Ustawienia zgody są ważne przez 12 miesięcy. Strona nie zawiera skryptów analitycznych ani marketingowych. Ustawienia możesz zmienić w stopce.",
+  allergenText:
+    "Alergeny dla każdego dania zostaną podane po dodaniu menu. O składniki i możliwość kontaktu krzyżowego zapytaj obsługę.",
+  allergenList: [
+    "Zboża zawierające gluten",
+    "Skorupiaki",
+    "Jaja",
+    "Ryby",
+    "Orzeszki ziemne",
+    "Soja",
+    "Mleko",
+    "Orzechy",
+    "Seler",
+    "Gorczyca",
+    "Sezam",
+    "Dwutlenek siarki i siarczyny",
+    "Łubin",
+    "Mięczaki",
+  ],
+  formUnavailable:
+    "Adres e-mail kawiarni nie został jeszcze dodany. Wiadomość nie została wysłana ani zapisana.",
+  formReady: "Otworzyliśmy Twój program pocztowy. Wyślij wiadomość w nim.",
+  socialPending: "Instagram: link dodamy wkrótce",
+  legalPending: "Operator i numer identyfikacyjny firmy: do uzupełnienia",
+  openToday: "Dziś otwarte do",
+  closed: "Teraz zamknięte",
+  menuError: "Menu jest w przygotowaniu. Aktualną ofertę dodamy wkrótce.",
+  themeLight: "Włącz jasny motyw",
+  themeDark: "Włącz ciemny motyw",
+  themeName: "Motyw strony",
+  close: "Zamknij",
+  previous: "Poprzednie dania",
+  next: "Następne dania",
+  backToTop: "Powrót na górę",
+  logoAlt: "Táta vaří — uśmiechnięty kucharz",
+  stamp: "Z MIŁOŚCIĄ",
+  galleryMenu: "Otwórz galerię",
+  pageTitle: "Táta vaří — Jak w domu | Tata Vary",
+  pageDescription:
+    "Táta vaří (Tata Vary) — domowa kuchnia, dobre składniki i smak domu. Menu i kontakt już wkrótce.",
+};
+
+Object.assign(window.LOCALES.cs, {
+  themeLight: "Přepnout na světlý vzhled",
+  themeDark: "Přepnout na tmavý vzhled",
+  themeName: "Vzhled stránky",
+  close: "Zavřít",
+  previous: "Předchozí jídla",
+  next: "Další jídla",
+  backToTop: "Zpět nahoru",
+  logoAlt: "Táta vaří — usměvavý kuchař",
+  stamp: "S LÁSKOU",
+  galleryMenu: "Otevřít galerii",
+  pageTitle: "Táta vaří — Jako doma | Tata Vary",
+  pageDescription:
+    "Táta vaří (Tata Vary) — domácí kuchyně, poctivé suroviny a chuť domova. Menu a kontakty připravujeme.",
+});
+Object.assign(window.LOCALES.en, {
+  themeLight: "Switch to light theme",
+  themeDark: "Switch to dark theme",
+  themeName: "Website theme",
+  close: "Close",
+  previous: "Previous dishes",
+  next: "Next dishes",
+  backToTop: "Back to top",
+  logoAlt: "Táta vaří — smiling chef",
+  stamp: "WITH LOVE",
+  galleryMenu: "Open gallery",
+  pageTitle: "Táta vaří — Like home | Tata Vary",
+  pageDescription:
+    "Táta vaří (Tata Vary) — home cooking, honest ingredients and a taste of home. Menu and contact details coming soon.",
+});
+window.LOCALES.cs.cookieText =
+  "Používáme místní úložiště pro jazyk, vzhled a volbu soukromí. Analytiku ani reklamní sledování nyní nepoužíváme.";
+window.LOCALES.en.cookieText =
+  "We use local storage for your language, theme and privacy choices. No analytics or advertising tracking is currently used.";
+window.LOCALES.cs.necessaryText =
+  "Volba jazyka, vzhledu a nastavení soukromí. Vždy zapnuto.";
+window.LOCALES.en.necessaryText =
+  "Language, theme and privacy preferences. Always enabled.";
+window.LOCALES.cs.cookiesText =
+  "Používáme localStorage pro jazyk (tv-language), vzhled (tv-theme) a nastavení souhlasu (tv-consent). Volba souhlasu platí 12 měsíců. Web neobsahuje analytické ani marketingové skripty. Nastavení můžete kdykoli změnit v patičce.";
+window.LOCALES.en.cookiesText =
+  "We use localStorage for language (tv-language), theme (tv-theme) and consent preferences (tv-consent). Consent preferences last 12 months. This website contains no analytics or marketing scripts. You can change your preferences at any time in the footer.";
+window.LOCALES.cs.privacyText = window.LOCALES.cs.privacyText.replace(
+  "Jazyk a nastavení soukromí",
+  "Jazyk, vzhled a nastavení soukromí",
+);
+window.LOCALES.en.privacyText = window.LOCALES.en.privacyText.replace(
+  "Language and privacy settings",
+  "Language, theme and privacy settings",
+);
